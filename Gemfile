@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'paperclip'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'simple_form'

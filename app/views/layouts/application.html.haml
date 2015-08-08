@@ -8,7 +8,7 @@
 %body
   %nav.navbar.navbar-default
     .container
-      .navbar-brand= link_to "o_O", root_path
+      .navbar-brand= link_to "^_^", root_path
 
       - if user_signed_in?
         %ul.nav.navbar-nav.navbar-right
@@ -22,5 +22,5 @@
   .container
     - flash.each do |name, msg|
       = content_tag :div, msg, class: "alert alert-info"
-  = yield
+    = yield
 
